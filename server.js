@@ -5,8 +5,8 @@ import fetch from "node-fetch";
 const app = express();
 app.use(bodyParser.json());
 
-const QIWI_SECRET = "your_qiwi_secret_key"; // Qiwi API токен
-const QIWI_PUBLIC = "your_qiwi_public_key"; // Сайтта қолдану үшін
+const QIWI_SECRET = "aaa76bbe79a13acb11b6c598ade3481b"; // Qiwi API токен
+const QIWI_PUBLIC = "aaa76bbe79a13acb11b6c598ade3481b"; // Сайтта қолдану үшін
 
 // Төлем жасау (invoice)
 app.post("/create-invoice", async (req, res) => {
