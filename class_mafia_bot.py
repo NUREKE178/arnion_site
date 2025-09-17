@@ -1,7 +1,11 @@
 # Telegram Group Mafia Bot (Group part)
 # Minimal comments, designed to run with aiogram (>=3.x style adapted for 2.x compatible API)
 # Replace BOT_TOKEN and BOT_USERNAME and PHOTO URLs before running.
-
+import asyncio
+from aiogram import Bot, Dispatcher
+from aiogram.types import Message
+from aiogram.filters import CommandStart
+import os
 import asyncio
 import json
 import logging
