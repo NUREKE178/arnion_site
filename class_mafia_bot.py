@@ -14,7 +14,7 @@ from aiogram import Bot, Dispatcher, types, executor
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, ChatType
 
 # CONFIG - replace the placeholders
-BOT_TOKEN = "8498228551:AAGSzFHnY_0G3EjAfZiT3lDDUTEEn2oYhWY"
+BOT_TOKEN = "8348607898:AAGg8qbGEaSd8EjaeSFchqYg5gzKbA1H_uo"
 BOT_USERNAME = "@secret_hitler09_bot"
 DAY_PHOTOS = [
     "https://example.com/day1.jpg",
