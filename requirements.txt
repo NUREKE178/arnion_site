@@ -1,1 +1,3 @@
-python-telegram-bot==20.7
+aiogram==2.25.1
+python-dotenv==1.0.0   # токенді .env файлынан алу үшін (қолайлы)
+aiohttp==3.9.5         # aiogram ішкі тәуелділігі, кейде бөлек сұрайды
